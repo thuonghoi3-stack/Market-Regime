@@ -26,5 +26,8 @@
         }
       ]
     }
+  ],
+  "routes": [
+    { "src": "/__grok/extensions.js", "dest": "/public/__grok/extensions.js" }
   ]
 }
