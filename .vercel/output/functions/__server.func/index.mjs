@@ -143,7 +143,7 @@ function grokPwaHeadTags(appName = DEFAULT_APP_NAME) {
 		["theme-color", "<meta name=\"theme-color\" content=\"#000000\">"]
 	];
 }
-var GROK_EXTENSIONS_SCRIPT_SRC = "/js/extensions.js";
+var GROK_EXTENSIONS_SCRIPT_SRC = "/__grok/extensions.js";
 function readGrokProjectId() {
 	const fromProcess = typeof process !== "undefined" ? process.env?.VITE_PROJECT_ID : "";
 	return String(fromProcess ?? "").trim();
